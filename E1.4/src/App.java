@@ -6,13 +6,8 @@ public class App {
         animais[1] = new Sapo();
         animais[2] = new Cachorro();
 
-        System.out.print("Som do Boi: ");
-        System.out.println(animais[0].som());
-
-        System.out.print("Som do Sapo: ");
-        System.out.println(animais[1].som());
-
-        System.out.print("Som do Cachorro: ");
-        System.out.println(animais[2].som());
+       for (int i=0; i<animais.length; i++) {
+            System.out.println(animais[i].som());
+       }
     }
 }
